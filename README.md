@@ -1,16 +1,16 @@
 ## Handwritten Digit Predictor
 
-## Introduction:
+### Introduction:
 Handwritten digit recognition is a crucial application in various industries, including banking, healthcare, and education. This project explores the effectiveness of CNNs in predicting handwritten digits.
 
-## Methodology:
+### Methodology:
 1. Data Collection: MNIST dataset (70,000 images)
 2. Data Preprocessing: Reshaping, normalization and one-hot encoding.
 3. Model Architecture: Convolutional Neural Network (CNN)
 4. Training: Adam optimizer, categorical-cross-entropy loss, and accuracy metrics.
 5. Testing: Accuracy evaluation and confusion matrix analysis.
 
-## Model Architecture:
+### Model Architecture:
 1. Conv2D layers (16, 8 filters)
 2. Max Pooling layers (2x2)
 3. Flatten layer
